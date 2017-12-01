@@ -1,0 +1,4 @@
+nat64 prefix stateful FC00:0:1:EE::/96
+nat64 v4 pool NAT64-Pool 1.1.1.1 1.1.1.10
+nat64 v6v4 list NAT64 pool NAT64-Pool overload
+nat64 settings fragmentation header disable
